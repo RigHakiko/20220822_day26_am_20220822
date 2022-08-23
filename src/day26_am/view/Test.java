@@ -9,6 +9,7 @@ import org.apache.ibatis.session.SqlSessionFactoryBuilder;
 
 import java.io.IOException;
 import java.io.InputStream;
+import java.util.List;
 
 public class Test {
     // 测试的代码过于复杂(少学了spring)
@@ -31,6 +32,21 @@ public class Test {
             book.setPrice(28.8);
             result = bookMapper.addBook(book);
             sqlSession.commit();
+            Book book1 = bookMapper.selectById(19);
+            System.out.println(book1);
+
+            List<Book> books = bookMapper.selectByName("三");
+            for (Book book2 :
+                   books ) {
+                System.out.println(book2);
+            }
+
+            List<Book> books1 = bookMapper.selectByAuthor("曹雪芹");
+            for (Book book2 :
+                    books1) {
+                System.out.println(book2);
+            }
+
 
         } catch (IOException e) {
             throw new RuntimeException(e);

@@ -2,27 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="73c6b62b-ccc8-4f6a-a1f7-aabad97f5838" name="Changes" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/libraries/mybatis.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/asm-3.3.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/cglib-2.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/commons-dbcp-1.2.2.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/commons-logging-1.1.1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/javassist-3.17.1-GA.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/junit-4.9.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/log4j-1.2.17.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/log4j-api-2.0-rc1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/log4j-core-2.0-rc1.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/mybatis-3.2.7.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/mysql-connector-java-5.0.6-bin.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/slf4j-api-1.7.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/lib/slf4j-log4j12-1.7.5.jar" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day26_am/entity/Book.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day26_am/mapper/BookMapper.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day26_am/mapper/impl/BookMapperImpl.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/day26_am/view/Test.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/sqlMapConfig.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/git_toolbox_prj.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day26_am_20220822.iml" beforeDir="false" afterPath="$PROJECT_DIR$/day26_am_20220822.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day26_am/mapper/BookMapper.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day26_am/mapper/BookMapper.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/day26_am/view/Test.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/day26_am/view/Test.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -99,11 +82,23 @@
       <option name="number" value="Default" />
       <option name="presentableId" value="Default" />
       <updated>1661161536966</updated>
-      <workItem from="1661161538448" duration="4190000" />
+      <workItem from="1661161538448" duration="9508000" />
     </task>
+    <task id="LOCAL-00001" summary="用注解的方式去弄mybatis">
+      <created>1661165799806</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1661165799806</updated>
+    </task>
+    <option name="localTasksCounter" value="2" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="3" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="用注解的方式去弄mybatis" />
+    <option name="LAST_COMMIT_MESSAGE" value="用注解的方式去弄mybatis" />
   </component>
 </project>

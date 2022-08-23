@@ -34,12 +34,24 @@ public interface BookMapper {
 
     //以下自己研究
     //根据id查询行为
+    @Select("select book_id as id, book_name as name,  book_author as author, book_price as price " +
+            "from book where book_id = #{value};")
+    Book selectById(Integer id);
 
     //书名模糊
+    @Select("select book_id as id, book_name as name, book_author as author, book_price as price " +
+            "from book " +
+            "where book_name like concat('%', #{value}, '%');")
+    List<Book> selectByName(String likeName);
 
     //作者
+    @Select("select book_id as id, book_name as name, book_author as author, book_price as price from book where book_author = #{value} ")
+    List<Book> selectByAuthor(String author);
 
     //价格区间(有坑: 参数有多个的时候mybatis怎么处理: )
+    @Select("select book_id as id , book_name as name, book_author as author, book_price as price from book where book_price between #{} and #{}")
+    List<Book> selectByPrice(Double minPrice, Double maxPrice);
 
     //查询所有编号
+
 }
